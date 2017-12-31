@@ -20,6 +20,15 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+	vendor/lge/h930/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+	vendor/lge/h930/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     	vendor/lge/h930/proprietary/etc/firmware/a540_zap.b02:system/etc/firmware/a540_zap.b02 \
 	vendor/lge/h930/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
 	vendor/lge/h930/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
@@ -38,6 +47,16 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/h930/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
 	vendor/lge/h930/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
 	vendor/lge/h930/proprietary/etc/firmware/a540_zap.elf:system/etc/firmware/a540_zap.elf \
-	vendor/lge/h930/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2
+	vendor/lge/h930/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
+	vendor/lge/h930/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+	vendor/lge/h930/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+	vendor/lge/h930/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+	vendor/lge/h930/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+	vendor/lge/h930/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+	vendor/lge/h930/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+	vendor/lge/h930/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+	vendor/lge/h930/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+	vendor/lge/h930/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+	vendor/lge/h930/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv
 
 endif
